@@ -261,11 +261,24 @@ hr {
         display: flex;
         justify-content: space-between;
       }
+      .players{
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .top-players{
+        height: 750px;
+      }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px){
     main {
         display: flex;
         justify-content: space-between;
+        
+      }
+      .nav-bar{
+        justify-content: flex-end;
+      }
+      .players{
+        grid-template-columns: repeat(2, 1fr);
       }
 }
